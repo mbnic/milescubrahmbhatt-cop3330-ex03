@@ -35,7 +35,7 @@ public class App {
     }
 
     public void printOutput(String quote, String name) {
-        //do
+        System.out.printf(name + " says, " + "\"" + quote + "\"");
     }
 
     public String getQuote() {
